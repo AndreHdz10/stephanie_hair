@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Gruppo&family=Noto+Serif+Display:ital,wght@1,100&family=Urbanist:wght@100&display=swap');
+
+body{
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+/* Header */
+
+header{
+    display: grid;
+    padding: 40px 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: "Gruppo";
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+#aboutme-link:hover{
+    opacity: .6;
+    transform: scale(1.3);
+
+}
+#booking-link:hover{
+    opacity: .6;
+    transform: scale(1.3);
+
+}
+
+#logo-link{
+    font-size: 40px;
+}
+
+#booking-link, #aboutme-link{
+    margin-top: 23px;
+}
+
+/* Main Section */
+
+#home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Noto Serif Display", serif;;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+
+#home img{
+    width: 100%;
+}
+
+#home p{
+    padding: 100px 100px 0 100px;
+    font-weight: bolder;
+}
+
+/*Footer */
+
+footer{
+    padding: 200px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: "Gruppo";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.contact-us a{
+    text-decoration-line: underline;
+    color: white;
+}
+.contact-us a:hover{
+    text-decoration:none
+}
+
+.social img{
+    width: 30px;
+    padding-top: 80px;
+}
+
+.location-tilte, .contact-title{
+    font-size: 15px;
+}
+
+hr{
+    width: 90%;
+    border-color: gray;
+}
+
+.copy{
+    font-family: "Gruppo";
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    padding: 25px;
+}
