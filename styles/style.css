@@ -104,3 +104,124 @@ hr{
     font-size: 15px;
     padding: 25px;
 }
+
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .home-image {
+      width: 100%;
+    }
+  
+    header {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      align-items: center;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #logo-link {
+      font-size: 24px;
+    }
+  
+    #aboutme-link {
+      margin-top: 20px;
+    }
+  
+    #booking-link {
+      margin-top: 20px;
+    }
+  
+    #content {
+      padding: 20px;
+    }
+  
+    main {
+      margin: 20px 0;
+    }
+  
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+    }
+  
+    .location-title {
+      margin-top: 0;
+    }
+  
+    .locatiom,
+    .social,
+    .contact-us {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .contact-title {
+      margin-top: 0;
+    }
+  
+    hr {
+      margin: 20px 0;
+    }
+  
+    .copy {
+      font-size: 14px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    body {
+      font-size: 16px;
+    }
+  
+    #logo-link {
+      font-size: 20px;
+    }
+  
+    .home-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+  
+    #booking-link {
+      margin-top: 10px;
+    }
+  
+    #aboutme-link {
+      margin-top: 10px;
+    }
+  
+    #content {
+      padding: 10px;
+    }
+  
+    .location-title {
+      margin-top: 10px;
+    }
+  
+    .locatiom,
+    .social,
+    .contact-us {
+      margin-top: 10px;
+    }
+  
+    .copy {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  }
+  
