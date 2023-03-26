@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Gruppo&family=Noto+Serif+Display:ital,wght@1,100&family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Lato:wght@100&display=swap');
 
 body{
     font-size: 22px;
@@ -48,7 +48,7 @@ nav a{
 #home{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: "Noto Serif Display", serif;;
+    font-family: 'Lato', sans-serif;
     color: white;
     text-align: center;
     font-size: 19px;
@@ -75,17 +75,17 @@ footer{
     text-align: center;
 }
 
-.contact-us a{
+footer a{
     text-decoration-line: underline;
     color: white;
 }
-.contact-us a:hover{
+footer a:hover{
     text-decoration:none
 }
 
 .social img{
     width: 30px;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .location-tilte, .contact-title{

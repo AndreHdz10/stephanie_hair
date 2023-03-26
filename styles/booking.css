@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Lato:wght@100&display=swap');
+
+body{
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+/* Header */
+
+header{
+    display: grid;
+    padding: 40px 25px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: "Gruppo";
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#aboutme-link{
+    margin-top: 15px;
+}
+
+#aboutme-link:hover{
+    opacity: .6;
+    transform: scale(1.3);
+}
+
+/*Main Content */
+
+.booking{
+    background-color: #F9F5EB;
+    color: black;
+    padding: 50px 0;
+}
+
+.msg{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 50px 250px;
+}
+
+#services{
+    padding: 25px 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#services img{
+    width: 250px;
+    border-radius: 5%;
+}
+
+h1, h2, h3{
+    font-family: "Gruppo";
+}
+
+button {
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: "Lato";
+    padding: 10px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+button:hover span {
+    padding-right: 25px;
+  }
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+/*Footer */
+
+footer{
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: "Gruppo";
+    font-size: 20px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration-line: underline;
+    color: white;
+}
+footer a:hover{
+    text-decoration:none
+}
+
+.social img{
+    width: 30px;
+    padding-top: 50px;
+}
+
+.location-tilte, .contact-title{
+    font-size: 15px;
+}
+
+hr{
+    width: 90%;
+    border-color: gray;
+}
+
+.copy{
+    font-family: "Gruppo";
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    padding: 25px;
+}
